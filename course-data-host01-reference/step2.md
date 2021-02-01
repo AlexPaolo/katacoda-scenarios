@@ -15,3 +15,10 @@ These tabs can automatically run certain commands to help the user understand wh
   "terminals": [{"name": "Docker Stats", "command": "docker stats", "target": "host01"}]
 }
 The can be used for tasks such as watching a event stream, or viewing all the processes running on a system.
+
+Within the Markdown content for Katacoda you can embed any HTML element, this means you would have the ability to embed YouTube videos, such as the example below.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KeJJ34BvA7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The HTML included is:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KeJJ34BvA7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-med
