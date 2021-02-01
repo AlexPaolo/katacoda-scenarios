@@ -17,9 +17,8 @@
         }
     },
     "environment": {
-        "hideintro": true,
-        "uilayout": "terminal"
-    },
+  "uilayout": "vscode-terminal-split"
+},
     "backend": {
         "imageid": "ubuntu"
     }
