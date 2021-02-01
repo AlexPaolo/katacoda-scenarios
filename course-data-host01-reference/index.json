@@ -19,7 +19,10 @@
         {
           "title": "Commands",
           "text": "step1.md"
-        }
+        },{
+                "title": "Terminal Tabs",
+                "text": "step2.md"
+            }
       ],
       "intro": {
         "text": "intro.md",
