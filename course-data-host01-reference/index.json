@@ -1,38 +1,25 @@
 {
-    "title": "Background script with explicit reference to host01",
-    "difficulty": "beginner",
+    "title": "Displaying Web UI ",
+    "description": "Learn how to access a Web UI running on the environment",
+    "difficulty": "easy",
     "time": "10 minutes",
     "details": {
-      "assets": {
-        "host01": [
-          {
-            "file": "wait-script.sh",
-            "target": "/tmp/"
-          },
-          {
-            "file": "dummy.json",
-            "target": "/root"
-          }
-        ]
-      },
-      "steps": [
-        {
-          "title": "Commands",
-          "text": "step1.md"
+        "steps": [
+            {
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
         }
-      ],
-      "intro": {
-        "text": "intro.md",
-        "code": "set-env.sh",
-        "courseData": "init-env.sh"
-      }
     },
     "environment": {
-      "uilayout": "terminal",
-      "hidefinish": true,
-      "hideintro": true
-    },
+  "uilayout": "vscode-terminal-split"
+},
     "backend": {
-      "imageid": "kubernetes-cluster-running:1.18"
+        "imageid": "ubuntu"
     }
-  }
+}

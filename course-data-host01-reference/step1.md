@@ -1,7 +1,11 @@
+## Start HTTP Server docker run -p 80:80 -d katacoda/docker-http-server{{execute}}
 
+## Test curl localhost{{execute}}
 
-This scenario contains a explicit reference to host01 in the background script (init-env.sh)
+Generated Web Link
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-sleep 2
-ssh root@host01 "chmod 755 /tmp/load-quiz.sh; /tmp/load-quiz.sh > /tmp/load-quiz.out"
+## Markdown
 
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+## Learn More Displaying Tabs and embedding iFrames
